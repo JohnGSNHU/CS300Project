@@ -1,3 +1,3 @@
 # CS300Project
-This C++ application uses a hash table to store and manage course information
+## This C++ application uses a hash table to store and manage course information read from a CSV file
 The ABCU Course Advising Program is a C++ application that uses a hash table to store and manage course information. The program reads course data from a CSV file, including course numbers, titles, and prerequisites. It validates the data by checking for missing information, duplicate course numbers, and prerequisites that do not exist in the file. Users can display an alphanumerically sorted list of courses or search for an individual course to view its title and prerequisites. The program uses separate chaining to handle hash table collisions and provides error messages when invalid input is entered or course data cannot be loaded. A menu allows users to easily load course data, view course information, and exit the program.
